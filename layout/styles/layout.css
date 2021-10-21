@@ -116,7 +116,7 @@ File: Layout CSS
 #latest article .meta li:last-child{text-align:right;}
 #latest article .meta li i{margin-right:5px;}
 #latest article .excerpt{display:block; max-width:85%; margin:0 auto; padding:15px 0 15px 15px; border-left:1px solid;}
-#latest article .excerpt time{display:block; margin-bottom:8px; text-transform:uppercase; font-size:.8rem; font-style:normal; line-height:1;}
+#latest article .excerpt time{display:block; margin-bottom:8px; font-size:.8rem; font-style:normal; line-height:1;}
 #latest article .excerpt .heading{margin:0; padding:0; font-size:1.2rem;}
 
 /* Comments */
@@ -155,7 +155,7 @@ File: Layout CSS
 #ctdetails article{margin-bottom:0;}/* Used when elements stack in small viewports */
 #ctdetails input, #ctdetails button{border:1px solid;}
 #ctdetails input{display:block; width:100%; padding:15px; margin-bottom:20px;}
-#ctdetails button{padding:8px 18px 10px; text-transform:uppercase; font-weight:400; cursor:pointer;}
+#ctdetails button{padding:8px 18px 10px;  font-weight:400; cursor:pointer;}
 
 
 /* Footer
@@ -210,7 +210,7 @@ nav ul, nav ol{margin:0; padding:0; list-style:none;}
 
 /* Top Navigation */
 #mainav{}
-#mainav ul{text-transform:uppercase;}
+
 #mainav ul ul{position:absolute; width:180px; text-transform:none; z-index:9999;}
 #mainav ul ul ul{left:180px; top:0;}
 #mainav li{display:inline-block; position:relative; margin:0 15px 0 0; padding:0;}
@@ -233,7 +233,7 @@ nav ul, nav ol{margin:0; padding:0; list-style:none;}
 
 /* Breadcrumb */
 #breadcrumb{padding:150px 0 30px;}
-#breadcrumb ul{margin:0; padding:0; list-style:none; text-transform:uppercase;}
+#breadcrumb ul{margin:0; padding:0; list-style:none;}
 #breadcrumb li{display:inline-block; margin:0 6px 0 0; padding:0;}
 #breadcrumb li a{display:block; position:relative; margin:0; padding:0 12px 0 0; font-size:12px;}
 #breadcrumb li a::after{top:4px; right:0; content:"\f0da";}
